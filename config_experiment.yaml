@@ -1,0 +1,5 @@
+dataset_type: SOURCE_SPEECH_NOISE_SPEECH
+dataset_path: /Users/shiranaziz/Desktop/new/data/snr_dataset/
+output_dataset_path: /Users/shiranaziz/Desktop/new/output/
+method_to_examine: [MEAN, MEDIAN, MAX_ELIMINATION, OURS]
+metrics_to_examine: [SI_SNR, PESQ, STOI]

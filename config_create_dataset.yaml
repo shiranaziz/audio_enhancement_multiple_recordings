@@ -1,0 +1,8 @@
+dataset_type: SOURCE_SPEECH_NOISE_SPEECH
+source_dataset_path: "/Users/shiranaziz/Desktop/t/LibriSpeech/"#the root directory to the data set of the source
+noise_dataset_path:  "/Users/shiranaziz/Desktop/t/LibriSpeech/"  #the root directory to the data set of the noise
+output_dataset_path: "/Users/shiranaziz/Desktop/new/data/"
+is_packetloss: True
+
+# "/Users/shiranaziz/Desktop/t/download_dataset/musdb18/"
+#"/Users/shiranaziz/Desktop/t/download_dataset/audioset_train/train_wav/"

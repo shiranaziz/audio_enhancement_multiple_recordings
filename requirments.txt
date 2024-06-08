@@ -1,0 +1,13 @@
+pesq
+numpy
+soundfile
+scipy
+librosa
+pandas
+torch
+torchmetrics
+pystoi
+matplotlib
+seaborn
+pyrallis
+
