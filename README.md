@@ -41,7 +41,7 @@ python --config_path=config_create_dataset.yaml
 #SOURCE_SPEECH_NOISE_SPEECH_PACKETLOSS / SOURCE_SPEECH_NOISE_DEMAND_PACKETLOSS / SOURCE_MUSIC_NOISE_SPEECH_PACKETLOSS /
 #SOURCE_MUSIC_NOISE_SPEECH_CHANGED_NUMBER_OF_NOISES
 dataset_type: SOURCE_SPEECH_NOISE_SPEECH
-#the output from the dataset Creation stage
+#the output from the dataset creation stage
 dataset_path: "/Users/shiranaziz/Documents/data/snr_dataset/"
 # the path for our methd and baselines signals, metreces csv and plots
 output_dataset_path: "/Users/shiranaziz/Desktop/Documents/output/"
