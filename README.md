@@ -42,9 +42,9 @@ python --config_path=config_create_dataset.yaml
 #SOURCE_MUSIC_NOISE_SPEECH_CHANGED_NUMBER_OF_NOISES
 dataset_type: SOURCE_SPEECH_NOISE_SPEECH
 #the output from the dataset Creation stage
-dataset_path: /Users/shiranaziz/Documents/data/snr_dataset/
+dataset_path: "/Users/shiranaziz/Documents/data/snr_dataset/"
 # the path for our methd and baselines signals, metreces csv and plots
-output_dataset_path: /Users/shiranaziz/Desktop/Documents/output/
+output_dataset_path: "/Users/shiranaziz/Desktop/Documents/output/"
 
 method_to_examine: [MEAN, MEDIAN, MAX_ELIMINATION, OURS]
 metrics_to_examine: [SI_SNR, PESQ, STOI]
