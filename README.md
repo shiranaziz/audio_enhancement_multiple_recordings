@@ -19,11 +19,11 @@ use the config_create_dataset.yaml for the input aguments:
 # SOURCE_MUSIC_NOISE_SPEECH_CHANGED_NUMBER_OF_NOISES
 dataset_type: SOURCE_MUSIC_NOISE_SPEECH
 # The root directory to the data set for the source signal, the enhenced signal. choose betweeen music from MUSDB18 or speech from LibriSpeech
-source_dataset_path: "/Users/shiranaziz/Documents/musdb18/"
+source_dataset_path: "path/to/musdb18/"
 # The root directory to the data set for the noises.  choose betweeen speech from LibriSpeech or noises from audioset or DEMAND
-noise_dataset_path:  "/Users/shiranaziz/Documents/LibriSpeech/"
+noise_dataset_path:  "path/to/LibriSpeech/"
 # The loction to store the dataset
-output_dataset_path: "/Users/shiranaziz/Documents/data/"
+output_dataset_path: "path/to/output_data/"
 # create the data set with random one sec peacketloss at each one of the noises. boolean argumnt.
 is_packetloss: False 
 ```
@@ -42,9 +42,9 @@ python --config_path=config_create_dataset.yaml
 # SOURCE_MUSIC_NOISE_SPEECH_CHANGED_NUMBER_OF_NOISES
 dataset_type: SOURCE_SPEECH_NOISE_SPEECH
 # the output from the dataset creation stage
-dataset_path: "/Users/shiranaziz/Documents/data/snr_dataset/"
+dataset_path: "path/to/output_data/snr_dataset/"
 # the path for our methd and baselines signals, metreces csv and plots
-output_dataset_path: "/Users/shiranaziz/Desktop/Documents/output/"
+output_dataset_path: "path/to/results/"
 
 method_to_examine: [MEAN, MEDIAN, MAX_ELIMINATION, OURS]
 metrics_to_examine: [SI_SNR, PESQ, STOI]
